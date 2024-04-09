@@ -25,12 +25,12 @@ class _CalculadoraPage extends State<CalculadoraPage> {
               children: [
                 Expanded(
                   child: CustomCard(
-                    child: GenderCardMale()
+                    child: GenderCard(icon: Icons.male, gender: "masculino",)
                   ),
                 ),
                 Expanded(
                   child: CustomCard(
-                    child: GenderCardFemale()
+                    child: GenderCard(icon: Icons.female, gender: "feminino",)
                     
                   ),
                 ),
